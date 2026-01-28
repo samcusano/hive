@@ -66,7 +66,7 @@ Aden은 AI 에이전트를 구축, 배포, 운영, 적응시키기 위한 플랫
 ### 사전 요구 사항
 
 - 에이전트 개발을 위한 [Python 3.11+](https://www.python.org/downloads/)
-- 컨테이너 기반 도구 사용 시 선택 사항: [Docker](https://docs.docker.com/get-docker/) (v20.10+)
+- 컨테이너 기반 도구 사용 시 선택 사항: [Docker](https://docs.docker.com/get-docker/) (v20.10+) – 선택 사항입니다. PostgreSQL, Redis와 같은 컨테이너화된 종속성이 필요한 MCP 도구를 사용하는 경우에만 필요합니다. 기본적인 에이전트 개발에는 필요하지 않습니다.
 
 ### 설치
 
